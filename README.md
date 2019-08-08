@@ -143,7 +143,7 @@ This solution is entirely type-safe. You can see the [code and tests in my repos
 
 Here is a screenshot showing how VS Code IntelliSense picks up correctly that `DESTROY_DATABASE` is a boolean.
 
-![VS Code IntelliSense](/Users/roman/Development/experiments/typescript-12-factor/intellisense.png)
+![VS Code IntelliSense](./intellisense.png)
 
 ## Your Ideas
 
