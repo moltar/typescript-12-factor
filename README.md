@@ -109,7 +109,7 @@ export class Config {
 }
 ```
 
-Let's take break it down.
+Let's break it down.
 
 We declare a private property `processEnv` which defaults to values from `process.env`.
 
@@ -135,7 +135,7 @@ The config should always be immutable.
 
 The next step is to use `from` method provided by `env-var` to instantiate the `env-var` object.
 
-Then we can declare any number of properties on the object and using a builder pattern declare all of our requirements for the given variable. 
+Then we can declare any number of properties on the object and using a builder pattern declare all of our requirements for the given variable.
 
 Refer to the [documentation](https://www.npmjs.com/package/env-var) to learn about all of the possible validations. There are a lot of goodies there. You can set defaults and even decode from Base64.
 
