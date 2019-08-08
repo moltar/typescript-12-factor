@@ -139,7 +139,7 @@ Then we can declare any number of properties on the object and using a builder p
 
 Refer to the [documentation](https://www.npmjs.com/package/env-var) to learn about all of the possible validations. There are a lot of goodies there. You can set defaults and even decode from Base64.
 
-This solution is entirely type-safe. You can see the code and tests in my repository.
+This solution is entirely type-safe. You can see the [code and tests in my repository](https://github.com/moltar/typescript-12-factor).
 
 Here is a screenshot showing how VS Code IntelliSense picks up correctly that `DESTROY_DATABASE` is a boolean.
 
@@ -150,4 +150,3 @@ Here is a screenshot showing how VS Code IntelliSense picks up correctly that `D
 Do you have any tips and tricks for managing configuration?
 
 Please share them in the comments below.
-
