@@ -1,0 +1,22 @@
+{
+  "name": "typescript-12-factor",
+  "version": "1.0.0",
+  "description": "The [third factor](https://12factor.net/config) of [The Twelve-Factor App](https://12factor.net/) document states:",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "24.0.17",
+    "@types/node": "12.7.1",
+    "jest": "24.8.0",
+    "ts-jest": "24.0.2",
+    "typescript": "3.5.3"
+  },
+  "dependencies": {
+    "env-var": "5.0.0"
+  }
+}
